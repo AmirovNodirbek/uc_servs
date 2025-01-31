@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik Gemstones", serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 50px auto;
+    border: 1px solid red;
+    height: 80px;
+}
+.header_icon{
+    width: 80px;
+    height: 50px;
+    display: block;
+    align-items: right;
+    justify-content: right;
+
+}
