@@ -1,82 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./stayl.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
-
 <body>
-    <!-- Header start -->
-    <header>
-        <img class="header_icon" src="./img/image.png" alt="">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Adminlar</a></li>
-            <li><a href="#`">Sotib olish</a></li>
-        </ul>
-    </header>
-    <!-- home -->
-     <div class="contaner">
-        <section class="home">
-            <swiper-container class="mySwiper" effect="cards" grab-cursor="true">
-                <swiper-slide>
-                    <img src="./img/uc.png" alt="">
-                    <h1>60</h1>
-                    <h2>00 - so'm</h2>
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="./img/uc.png" alt="">
-                    <h1>60</h1>
-                    <h2>00 - so'm</h2>
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="./img/uc.png" alt="">
-                    <h1>60</h1>
-                    <h2>00 - so'm</h2>
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="./img/uc.png" alt="">
-                    <h1>60</h1>
-                    <h2>00 - so'm</h2>
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="./img/uc.png" alt="">
-                    <h1>60</h1>
-                    <h2>00 - so'm</h2>
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="./img/uc.png" alt="">
-                    <h1>60</h1>
-                    <h2>00 - so'm</h2>
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="./img/uc.png" alt="">
-                    <h1>60</h1>
-                    <h2>00 - so'm</h2>
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="./img/uc.png" alt="">
-                    <h1>60</h1>
-                    <h2>00 - so'm</h2>
-                </swiper-slide>
-                <swiper-slide>
-                    <img src="./img/uc.png" alt="">
-                    <h1>60</h1>
-                    <h2>00 - so'm</h2>
-                </swiper-slide>
-              </swiper-container>
-        </section>
-            </div>
-     <!-- js -->
-     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
-    <script src="./app.js"></script>
-    <!-- siweper -->
+   <section class="home">
+    <h1>
+        XIZMATLAR
+    </h1>
+    <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime libero eaque facilis beatae perspiciatis repellendus suscipit nihil cum illum? Doloribus!
+    </p>
+    <div class="home_wraper">
+        <button  onclick="showNewCard()">
+            <h1>
+                60 UC
+            </h1>
+            <img src="./img/uc_30 (2).png" alt="">
+            <h2>
+                13 700 so'm
+            </h2>
+        </button>
+        <button  onclick="showNewCard()">
+            <h1>
+                325 UC
+            </h1>
+            <img src="./img/uc_300 (2).png" alt="">
+            <h2>
+                62 700 so'm
+            </h2>
+        </button>
+        <button  onclick="showNewCard()">
+            <h1>
+                660 UC
+            </h1>
+            <img src="./img/uc_600 (2).png" alt="">
+            <h2>
+                126 700 so'm
+            </h2>
+        </button>
+        <button  onclick="showNewCard()">
+            <h1>
+                1800 UC
+            </h1>
+            <img src="./img/uc_1500 (2).png" alt="">
+            <h2>
+                305 100 so'm
+            </h2>
+        </button> 
+    </div>
+    <div class="home_center">
+        <button  onclick="showNewCard()">
+            <h1>
+                3850 UC
+            </h1>
+            <img src="./img/uc_16200 (2).png" alt="">
+            <h2>
+                610 200 so'm
+            </h2>
+        </button> 
+        <button  onclick="showNewCard()">
+            <h1>
+                8100UC
+            </h1>
+            <img src="./img/uc_24000 (2).png" alt="">
+            <h2>
+                1 219 600 so'm
+            </h2>
+        </button> 
+        <button  onclick="showNewCard()">
+            <h1>
+                16200 UC
+            </h1>
+            <img src="img/uc_3000 (2).png" alt="">
+            <h2>
+                2 432 900 so'm
+            </h2>
+        </button> 
+        <button  onclick="showNewCard()">
+            <h1>
+                24300 UC
+            </h1>
+            <img src="./img/uc_8100 (2).png" alt="">
+            <h2>
+                3 637 400 so'm
+            </h2>
+        </button> 
+    </div>
+    <div class="home_footer">
+        <button class="footer_button_link"  onclick="showNewCard()">
+            <h1>
+                Elite Pass plus UC
+            </h1>
+            <img src="./img/boy (2).png" alt="">
+            <h2>
+                412 100 so'm
+            </h2>
+        </button>   
+         <button class="footer_button_nav" onclick="showNewCard()">
+            <h1>
+                Elite pass UC
+            </h1>
+            <img src="./img/girl (2).png" alt="">
+            <h2>
+                166 500 so'm
+            </h2>
+        </button>
+        <div id="newCard" class="hidden-card">
+            <select id="numberSelect" class="select" onchange="handleSelectChange(this)">
+                <option value="60">60 uc</option>
+                <option value="120">120 uc</option>
+                <option value="130">130 uc</option>
+                <option value="140">140 uc</option>
+            </select>
+            <input type="number" name="id" class="input_number">
+            <h1 class="h_nav">
+                Bog'lanish uchun!
+            </h1>
+            <a class="a_nav" href="https://t.me/WARX_UC">YUBORISH</a>
+        </div>
+   </section> 
+   <script src="./app.js"></script>
 </body>
-
 </html>
+
